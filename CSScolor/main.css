@@ -1,0 +1,21 @@
+/*Normal Color*/
+#a{
+   background-color: cornflowerblue;
+    box-shadow: 2px 5px 10px black;
+}
+
+/* Gradients color */
+#b{
+    background: linear-gradient(to right,#ff3300,#cc00ff
+        
+);
+    box-shadow: 5px 3px 2px black;
+}
+h1{
+    color: #ffff00; /*HEX color*/
+    text-shadow: 2px 2px 3px black; /* text shadow*/
+}
+h2{
+    color: rgb(128, 255, 0); /* RGB color*/
+    text-shadow: 5px 5px 10px #00ffff;
+}

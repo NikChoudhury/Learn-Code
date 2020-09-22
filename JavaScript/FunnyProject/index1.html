@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- APlayer CSS -->
+   <!--  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"> -->
+
+    <!-- Link For Main CSS -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- Script For Menu Icon Click -->
+    <script>
+      function dropdwonMenu(){
+        var x = document.getElementById("dropdwonClick");
+        if (x.className==="Top_Nav") {
+          x.className += " responsive";
+          // Change Top_Nav to Top_Nav.responsive
+        } else{
+          x.className = "Top_Nav";
+        };
+      }
+    </script>
+    
+
+    <title>Funny Project 2</title>
+  </head>
+  <body>
+      <!-- Navbar -->
+      <nav>
+        <ul class="Top_Nav" id="dropdwonClick">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li class="Right_Nav"><a href="#Message">Message ME</a></li>
+          <li class="Menu_Icon"><a href="javascript:void(0);" onclick="dropdwonMenu()">&#9776</a></li>
+          <!-- unicode-table.com Trigram -->
+        </ul>
+      </nav>
+
+
+      <div class="main1"> <!-- Main1 Start -->
+        <!-- section1 Start-->
+        <div class="container mw-100 section1">
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <div class="welcomeBox">
+                <h1 class="section1Heading">Welcome To our page</h1>
+                <small class="section1SmallText">There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- section1 End-->
+      </div> <!-- Main1 Ennd -->
+
+      <div class="main2"><!-- Main2 Start -->
+         <div class="container section2"> <!-- container start -->
+           <div class="row"> <!-- Row Start -->
+             <div class="col-md-12"> <!-- col-12 start -->
+               <div class="section2Header">
+                 <header>
+                   <h1>Popular</h1>
+                 </header>
+               </div>
+             </div> <!-- col-12 end -->
+
+            <div class="col-md-3"> <!-- col-md-3 start -->
+                <div class="boxs"> <!-- boxs start -->
+                  <div>
+                    <label><h3>Raku</h3></label>
+                  </div>
+                  <div>
+                    <!-- <a href="#" id="linkId" data-switch="0"> -->
+                      <img class="imageclass" id="imageclass" src="image\imageForBox\Rakuda.png" alt="Rajkumar" data-switch="0">
+                   <!--  </a> -->
+                  </div>
+                  <div>
+                    <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+                  </div>
+                </div> <!-- boxs end -->   
+            </div><!-- col-md-3 End -->
+
+            <div class="col-md-3"> <!-- col-md-3 start -->
+                <div class="boxs"> <!-- boxs start -->
+                  <div>
+                    <label><h3>Raku</h3></label>
+                  </div>
+                  <div>
+                   <!--  <a href="#" id="linkId" data-switch="1"> -->
+                      <img class="imageclass" id="imageclass" src="image\imageForBox\Lokhi-Da.png" alt="Lokhi Da" data-switch="1">
+                   <!--  </a> -->
+                  </div>
+                  <div>
+                    <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+                  </div>
+                </div> <!-- boxs end -->   
+            </div><!-- col-md-3 End -->
+
+            <div class="col-md-3"> <!-- col-md-3 start -->
+                <div class="boxs"> <!-- boxs start -->
+                  <div>
+                    <label><h3>Raku</h3></label>
+                  </div>
+                  <div>
+                    <!-- <a href="#" id="linkId" data-switch="2"> -->
+                      <img class="imageclass" id="imageclass" src="image\imageForBox\Rakuda.png" alt="Rajkumar" data-switch="2">
+                    <!-- </a> -->
+                  </div>
+                  <div>
+                    <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+                  </div>
+                </div> <!-- boxs end -->   
+            </div><!-- col-md-3 End -->
+
+            <div class="col-md-3"> <!-- col-md-3 start -->
+                <div class="boxs"> <!-- boxs start -->
+                  <div>
+                    <label><h3>Muda singi dim</h3></label>
+                  </div>
+                  <div>
+                    <a href="#" id="linkId" data-switch="3">
+                      <img class="imageclass" src="image\imageForBox\Lokhi-Da.png" alt="Lokhi Da">
+                    </a>
+                  </div>
+                  <div>
+                    <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+                  </div>
+                </div> <!-- boxs end -->   
+            </div><!-- col-md-3 End -->
+           </div> <!-- Row end -->
+         </div>  <!-- container end --> 
+      </div> <!-- Main2 end -->
+
+
+
+  <div id="aplayer"></div>
+
+  
+
+
+    <script type="text/javascript" src="JS/new.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <!-- Aplayer JavaScript Link -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,31 @@
+
+/*Background*/
+body{
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #ffff00; /*HEX color*/
+    text-shadow: 2px 2px 3px black; /* text shadow*/
+}
+h2{
+    color: rgb(128, 255, 0); /* RGB color*/
+    text-shadow: 5px 5px 10px #00ffff;
+}
+/*Border*/
+.borderimage{
+    height: 200px;
+    width: 300px;
+    border: 5px dashed red;
+}
+/*CSS combination*/
+ul li{
+    font-size: 30px;
+    color: white;
+    
+}
+
+ul > li{
+    color: yellow;
+}

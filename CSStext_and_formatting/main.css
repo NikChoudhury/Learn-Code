@@ -1,0 +1,32 @@
+/*Background*/
+body{
+    background-color: #444;
+    text-align: center;
+}
+
+ /*CSS Grouping*/
+h1,h2,h3{         
+    color: #ffffff;
+    line-height: 1rem;
+    font-style: italic;
+}
+
+/*CSS Specificity*/
+h2{
+    font-size: 30px;
+    font-style: normal;
+}
+
+.formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color: white;
+
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+}

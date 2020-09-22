@@ -1,0 +1,22 @@
+/*Google Fonts*/
+div{
+    text-align: center;
+}
+h1{
+    line-height: 2rem;
+    font-family: 'Kaushan+Script', cursive;
+}
+
+h2{
+    line-height: 2rem;
+    font-family: 'Rokkitt',serif;
+}
+
+h3{
+    line-height: 2rem;
+    font-family: 'Satisfy', cursive;
+}
+p{
+    line-height: 2rem;
+    font-family: 'Satisfy', cursive;
+}

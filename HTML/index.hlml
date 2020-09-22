@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td><img src="https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/09/25/Pictures/_115e3b3a-df82-11e9-b0cd-667d8786d605.jpg" width="50" height="50" alt="Joker Image"></td>
+			<td><h1> Welcome to My page</h1></td>
+		</tr>
+	</table>
+	<hr>
+	
+	<!--- UnOrdered List--->
+	<h1>This is a Unorderd List</h1>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Details</a></li>
+	</ul>
+	<p>This is a example of unordered List and link tag.</p>	
+	<hr> <!---Horizontal Line----->
+
+	<!--- UnOrdered List--->
+	<h1>This is a Orderd List</h1>
+	<ol>
+		<li>Home</li>
+		<li>About</li>
+		<li>Details</li>
+	</ol>
+	<hr>
+
+
+	<!---Table--->
+	<p>This is a example of TABLE</p>
+	<table border="1" cellpadding="5" cellspacing="10">
+		<thead>Table Example</thead> 			<!---Table Head--->
+		<tr>							<!---Table Row--->				
+			<td><button>Project 1</button></td>			<!---Table data or column--->
+			<td>Project 2</td>
+			<td>Project 3</td>
+			<td><button>Project 4</button></td>
+		</tr>
+		<tr>
+			<td>Project 5</td>
+			<td><button>Project 6</button></td>
+			<td><button>Project 7</button></td>
+			<td>Project 8</td>
+		</tr>
+	</table>
+	<hr>
+	
+	<!--- Video from Youtube---->
+	<h2>Video</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/0gosur3db5I" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<hr>
+
+	<!--- Image---->
+	<h2>Image</h2>
+	<img src="https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+	<hr>
+
+	<!---Contact form---->
+	<h2>Contact Us</h2>
+	<form>
+		Name:<br>
+		<input type="text" name="name"><br><br>
+		Email:<br>
+		<input type="text" name="email"><br><br>
+		<button>Submit</button>
+
+	</form>
+	<hr>
+
+</body>
+</html>

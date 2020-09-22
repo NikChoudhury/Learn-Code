@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Funny Project</title>
+    <!-- Link For Main CSS -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!--****** Fonts ********-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <!-- boxHeadingFont -->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merienda+One&display=swap');
+    </style>
+
+    <!-- Script For Menu Icon Click -->
+    <script>
+      function dropdwonMenu(){
+        var x = document.getElementById("dropdwonClick");
+        if (x.className==="Top_Nav") {
+          x.className += " responsive";
+          // Change Top_Nav to Top_Nav.responsive
+        } else{
+          x.className = "Top_Nav";
+        };
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul class="Top_Nav" id="dropdwonClick">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li class="Right_Nav"><a href="#Message">Message ME</a></li>
+        <li class="Menu_Icon"><a href="javascript:void(0);" onclick="dropdwonMenu()">&#9776</a></li>
+        <!-- unicode-table.com Trigram -->
+      </ul>
+    </nav>
+
+
+    <!-- Section 1 -->
+
+
+    <div class="container mw-100 section1">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <div class="welcomeBox">
+            <h1 class="section1Heading">Welcome To our page</h1>
+            <small class="section1SmallText">There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ##################### -->
+
+    <!-- Section 2 -->
+    
+    <div class="container section2"><!-- containerStart -->
+      <div class="row mw-100 rowHeader">
+        <div class="col-12 col-md-12">
+          <div class="section2Header">
+            <header>
+              <h1>Popular</h1>
+            </header>
+          </div>
+        </div>
+      </div>
+
+      <div class="row"> <!-- boxRowStart -->
+        <div class="col-sm-4 col-md-4">
+          <div class="box">
+            <div class="boxLabel">
+              <label>Rakuda</label>
+            </div>
+            <div class="boxImage" id="boxImage">
+               <img id="rakuDa" src="image\imageForBox\Rakuda.png" onclick="rakudaPlay()">
+            </div>
+            <div class="boxSmallText">
+              <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-md-4">
+          <div class="box">
+            <div class="boxLabel">
+              <label>Rakuda</label>
+            </div>
+            <div class="boxImage" id="boxImage">
+               <img id="lokhiDa" src="image\imageForBox\Lokhi-Da.png" alt="Lokhi Da Photo" onclick="lokhiDaPlay()">
+            </div>
+            <div class="boxSmallText">
+              <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-md-4">
+          <div class="box">
+            <div class="boxLabel">
+              <label>Rakuda</label>
+            </div>
+            <div class="boxImage" id="boxImage">
+               <img src="image\imageForBox\Rakuda.png">
+            </div>
+            <div class="boxSmallText">
+              <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- boxRowEnd -->
+
+    </div> <!-- containerEnd -->
+
+
+        <!-- Section 2 -->
+    
+    <div class="container section2"><!-- containerStart -->
+      <div class="row mw-100 rowHeader">
+        <div class="col-12 col-md-12">
+          <div class="section2Header">
+            <header>
+              <h1>Popular</h1>
+            </header>
+          </div>
+        </div>
+      </div>
+
+      <div class="row"> <!-- boxRowStart -->
+        <div class="col-sm-4 col-md-4">
+          <div class="box">
+            <div class="boxLabel">
+              <label>Rakuda</label>
+            </div>
+            <div class="boxImage" id="boxImage">
+               <img id="rakuDa" src="image\imageForBox\Rakuda.png" dataplay ="0">
+            </div>
+            <div class="boxSmallText">
+              <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-md-4">
+          <div class="box">
+            <div class="boxLabel">
+              <label>Rakuda</label>
+            </div>
+            <div class="boxImage" id="boxImage">
+               <img id="lokhiDa" src="image\imageForBox\Lokhi-Da.png" alt="Lokhi Da Photo" dataplay="1">
+            </div>
+            <div class="boxSmallText">
+              <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-md-4">
+          <div class="box">
+            <div class="boxLabel">
+              <label>Rakuda</label>
+            </div>
+            <div class="boxImage" id="boxImage">
+               <img src="image\imageForBox\Rakuda.png" dataplay="2">
+            </div>
+            <div class="boxSmallText">
+              <small>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</small>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- boxRowEnd -->
+
+    </div> <!-- containerEnd -->
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="playlist">
+      <audio id="A" class="Clap" controls>
+        <source src="Sound/AAA.mp3" type="audio/mp3">
+      </audio>
+      <audio id="B" class="Clap" controls>
+        <source src="Sound/BBB.mp3" type="audio/mp3">
+      </audio>
+    </div>
+     
+
+
+
+
+  
+    <!-- Link Main JavaScript -->
+    <script type="text/javascript" src="JS\main.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

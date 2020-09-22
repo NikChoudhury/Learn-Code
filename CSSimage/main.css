@@ -1,0 +1,21 @@
+body{
+    background-color: #444;
+}
+
+img{
+    padding: 5px;
+    display: block; /*for equal margin*/
+    margin: auto;
+    max-width: 100%; /*for responsive image*/
+    height: auto;
+    opacity: 0.5;
+
+}
+
+#Image{
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    border-radius: 50%;
+
+}

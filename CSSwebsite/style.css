@@ -1,0 +1,404 @@
+/*########## Default ##############*/
+nav, 
+header,
+footer,{
+	display: block;
+}
+body{
+	margin: 0;
+	line-height: 1;
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 3%
+
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap; 
+	align-items: center;
+	
+}
+
+.row::after{
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.col-1{width: 8.33%;} /*(1%12)*100*/
+.col-2{width: 16.66%;} /*(2%12)*100*/
+.col-3{width: 25%;}     /*(3%12)*100*/
+.col-4{width: 33.33%;}  /*(4%12)*100*/
+.col-5{width: 41.66%;}  /*(5%12)*100*/
+.col-6{width: 50%;}     /*(6%12)*100*/
+.col-7{width: 58.33%;}  /*(7%12)*100*/
+.col-8{width: 66.66%;}  /*(8%12)*100*/
+.col-9{width: 75%;}     /*(9%12)*100*/
+.col-10{width: 83.33%;} /*(10%12)*100*/
+.col-11{width: 91.66%;} /*(11%12)*100*/
+.col-12{width: 100%;}   /*(12%12)*100*/
+
+*{
+    box-sizing: border-box;
+}
+
+/*############ Top Navbar ##############*/
+nav{
+	margin: 0;
+	width: 100%;
+}
+
+nav ul{
+	background-color: #d9d9d9;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+ ul.Top_Nav li{
+	list-style: none;  /*for hidden list style*/
+	float: left;
+}
+
+ ul.Top_Nav li.Right_Nav {
+	float: right;
+}
+
+ ul.Top_Nav li a{
+	display:  block;
+	text-decoration: none; /*For remove Anchor Tag Button line*/
+	/*min-height: 20px;*/
+	 font-size: 18px;
+	text-align: center;
+	padding: 14px;
+	text-transform: uppercase;
+	color: #404040;
+}
+
+ul.Top_Nav li a:hover{
+	background-color: #1a75ff;
+	color: #fff;
+}
+
+ul.Top_Nav li.Menu_Icon {
+	display: none;
+}
+
+
+
+
+/*############## Custom  style Section 1 ##############*/
+
+#section-1-gradient{
+	background: #3366ff;
+	background: linear-gradient(#1aa3ff,#3366ff);
+}
+
+div.section-1-left-side-col{
+	margin-left: 15%;
+}
+
+div.section-1-right-side-col{
+	margin-left: 7.5%;
+	margin-right: 5%;
+}
+
+h1.section-1-header1{
+	display: block;
+	color: #ffff1a;
+	font-size: 40px;
+	margin: 0;
+	line-height: 40px;
+}
+/*h1.section-1-header2{
+	color: #fff;
+	font-size: 40px;
+	margin: 0;
+	line-height: 40px;
+}*/
+
+input.section-1-input-box[type="text"]{
+	font-size: 20px;
+	width: 70%;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+form h2{
+	color: #ffffff;
+}
+
+form input.button{
+	margin-top: 15px;
+	background-color: #669900;
+	color: #ffffff;
+	padding: 5px 15px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+
+/*Video Container*/
+div.section-1-right-side-video-conatainer iframe{
+	max-width: 100%;
+	display: flex;
+	overflow: hidden;
+	height: 300px;
+}
+
+/*############## Custom  style Section 2 ##############*/
+
+
+/*Header*/
+div header h1.section_2_header{
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
+
+/*Box*/
+div.box{
+	background-color: #2fa1a1;
+	/*https://www.cssmatic.com/box-shadow*/
+	-webkit-box-shadow: 18px 16px 18px -5px rgba(27,166,143,0.77);
+	-moz-box-shadow: 18px 16px 18px -5px rgba(27,166,143,0.77);
+	box-shadow: 18px 16px 18px -5px rgba(27,166,143,0.77);
+	text-align: center;
+	margin:24px;
+	padding: 25px 20px 15px 20px;
+	border-radius: 5px;
+	display: block;
+
+}
+/*Logo*/
+div.logo{
+	width: 100%;
+
+}
+div.logo img{
+	border-radius: 50%;
+}
+
+/*Label*/
+label{
+	font-size: 20px;
+	font-weight: 600;
+	display: block;
+}
+
+/*Text*/
+p{
+	font-size: 25px;
+	line-height: 1.2;
+}
+
+/*Button*/
+button{
+	font-size: 45px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #0073e6;
+	padding: 15px 60px;
+	border-radius: 7px;
+	display: block;
+	text-align: center;
+	margin: 5px;
+}
+button.section-2-button{
+	display: block;
+	margin: auto;
+}
+
+
+/*############## Custom  style Section 3 ##############*/
+/*Article*/
+article{
+	padding: 20px;
+}
+article h1{
+	font-size: 56px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+/*Image*/
+div.section-3-image{
+	padding: 5%;
+}
+
+div.section-3-image img{
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow:  0px 0px 16px 3px rgba(47,140,31,1),
+	0px 0px 24px 7px rgba(17,15,166,1);
+}
+
+
+
+/*############## Custom  style Section 4 ##############*/
+
+footer.footer_1{
+	background-color: #5c8a8a;
+	padding-left: 8%;
+	display: block;
+}
+
+footer.footer_1 h1{
+	color: #00e6e6;
+	font-size: 35px;
+}
+
+footer.footer_1 ul{
+	list-style: none;
+	text-align: left;
+	padding-left: 0;
+}
+
+footer.footer_1 ul li{
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+
+/*Footer 2*/
+footer.footer2{
+	background-color: #33000d;
+}
+
+div.div_footer2{
+	padding: 5px;
+}
+
+div.col_footer2{
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+div.col_footer2 a{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+/*############## Mobile ################*/
+
+@media screen and (max-width: 680px){
+/* Navbar   */
+	ul.Top_Nav li:not(:nth-child(1)){ /*for not selectin HOME*/
+		display: none;
+	}
+
+	ul.Top_Nav li.Menu_Icon {
+		display: block;
+		float: right;
+	}
+	/*when click dropdwon icon*/
+	ul.Top_Nav.responsive li.Menu_Icon{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+
+		ul.Top_Nav.responsive{
+			position: relative;
+		}
+
+		ul.Top_Nav.responsive li{
+			display: inline;
+			float: none;
+		}
+
+		ul.Top_Nav.responsive li a{
+			display: block;
+			text-align: left;
+		}
+
+     /* Standard Moblie Class*/
+
+		.col-7,
+		.col-6,
+		.col-5,
+		.col-4,
+		.col-12{
+			width: 100%;
+			margin: 0;
+		}
+
+	/*******Section 1 Mobile*******/
+    
+    input.section-1-input-box[type="text"]{
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+		div.section-1-left-side-col,
+		div.section-1-right-side-col{
+			margin: 15px;
+		}
+
+
+		.section-1-right-side-video-conatainer iframe{
+			position: relative;
+			width: 100%;
+			max-height: 250px;
+			margin: 0;
+			overflow: hidden;
+		}
+
+
+
+	/*** Section2 Mobile****/
+		/*Section 2 Box*/
+		div.box{
+			display: block;
+			padding: 5px;
+		}
+
+		h1.section_2_header{
+			font-size: 55px;
+		}
+
+		button{
+			font-size: 30px;
+			margin: auto;
+		}
+
+
+	/*******Section3 Mobile*********/
+	/*image*/
+	div.section-3-image{
+		margin: 25px;
+	}
+
+	div.section-3-image img{
+		width: 100%;
+	}
+
+
+	/**********Footer Mobile Section 4***********/
+	footer.footer_1 h1{
+		font-size: 20px;
+	}
+
+
+	div.mobile_footer{
+		width: 50%;
+		display: block;
+	}
+}
+	
+

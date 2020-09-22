@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comparison Operators</title>
+	<script type="text/javascript" src="comparison.js"></script>
+
+</head>
+<body>
+	<h1>Comparison Operators js codes</h1>
+	<p>
+		var accountBalance=500;<br>
+		var mobilePrice=700;<br>
+		var coupon=250;<br>
+
+		if (mobilePrice <= accountBalance) {<br>
+			accountBalance -=mobilePrice // accountBalance=accountBalance-mobilePrice<br>
+			console.log("You Should buy New phone");<br>
+			console.log("New Balance= "+ accountBalance);<br>
+		}else if (mobilePrice-coupon <= accountBalance) {<br>
+			console.log("You Should buy New phone with coupon");<br>
+			accountBalance -=mobilePrice-coupon; // accountBalance=accountBalance-(mobilePrice-coupon)	<br>
+			console.log("New Balance= "+ accountBalance)<br>
+		}else	{<br>
+			console.log("No Money");<br>
+		}<br>
+
+
+	</p>
+	<a href="https://www.w3schools.com/js/js_assignment.asp">Link</a>
+</body>
+</html>
