@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "JetBrains Mono", monospace;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background-color: #2980b9;
+}
+
+.centerDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.centerDiv h1 {
+  color: #f1c40f;
+}
+
+.centerDiv h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.centerDiv textarea {
+  background: rgba(255, 255, 255, 0.9);
+  outline: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: solid #2c3e50 0.3rem;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  min-width: 90vw;
+}
+
+.centerDiv button {
+  font-size: 1.6rem;
+  padding: 0.3rem 1rem;
+  border: solid #f1c40f 0.1rem;
+  background-color: #f1c40f;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  body {
+    font-size: 40%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
